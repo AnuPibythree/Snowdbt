@@ -2,11 +2,9 @@ version: 2
 
 sources:
   - name: SALESFORCE_TABLE_SOURCE
-    database: PC_MATILLION_DB
-    schema: RAW
+    database: PC_DBT_DB
+    schema: PUBLIC
     tables:
       - name: TARGET_ACCOUNT
-      - name: TARGET_LEAD
-      - name: TARGET_USER
-      - name: TARGET_ORDER
+      
 
